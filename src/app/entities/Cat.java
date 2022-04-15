@@ -1,4 +1,4 @@
-package app.commands;
+package app.entities;
 
 public class Cat {
     private int age;

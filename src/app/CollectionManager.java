@@ -1,12 +1,12 @@
 package app;
 
-import app.commands.Cat;
+import app.entities.Cat;
 
 import java.util.ArrayList;
 
 public class CollectionManager {
 
-    public ArrayList list = new ArrayList();
+    private final ArrayList<Cat> list = new ArrayList<>();
 
     public void add(Cat cat) {
         list.add(cat);

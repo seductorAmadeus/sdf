@@ -1,6 +1,7 @@
 package app.commands;
 
 import app.CollectionManager;
+import app.entities.Cat;
 
 public class AddCommand implements Command {
     private CollectionManager collectionManager;
@@ -14,4 +15,5 @@ public class AddCommand implements Command {
     public void execute() {
         collectionManager.add(new Cat(12, 124));
     }
+
 }
